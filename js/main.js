@@ -6,43 +6,41 @@
         {
             'name' : 'Wayne Barnett',
             'role' : 'Founder & CEO',
-            'img': 'wayne-barnett-founder-ceo.jpg'
+            'img': `<img src="img/wayne-barnett-founder-ceo.jpg">`
         },
         {
             'name': 'Angela Caroll',
             'role': 'Chief Editor',
-            'img': 'angela-caroll-chief-editor.jpg'
+            'img': `<img src="img/angela-caroll-chief-editor.jpg" alt="">`
         },
         {
             'name': 'Walter Gordon',
             'role': 'Office Manager',
-            'img': 'walter-gordon-office-manager.jpg'
+            'img': `<img src="img/walter-gordon-office-manager.jpg" alt="">`
         },
         {
             'name': 'Angela Lopez',
             'role': 'Social Media Manager',
-            'img': 'angela-lopez-social-media-manager.jpg'
+            'img': `<img src="img/angela-lopez-social-media-manager.jpg" alt="">`
         },
         {
             'name': 'Scott Estrada',
             'role': 'Developer',
-            'img': 'scott-estrada-developer.jpg'
+            'img': `<img src="img/scott-estrada-developer.jpg" alt="">`
         },
         {
             'name': 'Barbara Ramos',
             'role': 'Graphic Designer',
-            'img': 'barbara-ramos-graphic-designer.jpg'
+            'img': `<img src="img/barbara-ramos-graphic-designer.jpg" alt="">`
         }
 
-    ]
+    ];
 
-    MILESTONE 1:
-Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-    MILESTONE 2:
-Stampare le stesse informazioni su DOM sotto forma di stringhe
-    BONUS 1:
-Trasformare la stringa foto in una immagine effettiva
-    BONUS 2:
-Organizzare i singoli membri in card / schede
-
-
+//     MILESTONE 1:
+// Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+//     MILESTONE 2:
+// Stampare le stesse informazioni su DOM sotto forma di stringhe
+//     BONUS 1:
+// Trasformare la stringa foto in una immagine effettiva
+//     BONUS 2:
+// Organizzare i singoli membri in card / schede
