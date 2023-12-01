@@ -55,6 +55,6 @@ for (let i = 0; i < team.length; i++){
     // Organizzare i singoli membri in card / schede
     //     BONUS 1:
     // Trasformare la stringa foto in una immagine effettiva
-    printer.innerHTML += `<div class='col'> ${imgIndex} <br><h3>${nomeIndex}</h3> <br><span class='profile_role'>${roleIndex}</span></div>`;
+    printer.innerHTML += `<div class='col'>${imgIndex} <br><h3>${nomeIndex}</h3> <br><span class='profile_role'>${roleIndex}</span></div>`;
 }
 
