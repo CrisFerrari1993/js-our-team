@@ -49,12 +49,12 @@ for (let i = 0; i < team.length; i++){
     let roleIndex = teamIndex.role;
     let imgIndex = teamIndex.img;
     console.log('Name: ' + nomeIndex, ' Role: ' + roleIndex, ' Img: ' + imgIndex);
-    printer.innerHTML += `<div class='col'>${imgIndex} <br>${nomeIndex} <br> ${roleIndex} <br> </div>`;
+    //     MILESTONE 2:
+    // Stampare le stesse informazioni su DOM sotto forma di stringhe
+    //     BONUS 2:
+    // Organizzare i singoli membri in card / schede
+    //     BONUS 1:
+    // Trasformare la stringa foto in una immagine effettiva
+    printer.innerHTML += `<div class='col'> ${imgIndex} <br><h3>${nomeIndex}</h3> <br><span class='profile_role'>${roleIndex}</span></div>`;
 }
-//     MILESTONE 2:
-// Stampare le stesse informazioni su DOM sotto forma di stringhe
-//     BONUS 1:
-// Trasformare la stringa foto in una immagine effettiva
-//     BONUS 2:
-// Organizzare i singoli membri in card / schede
 
