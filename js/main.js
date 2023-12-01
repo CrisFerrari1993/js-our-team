@@ -6,32 +6,32 @@
         {
             'name' : 'Wayne Barnett',
             'role' : 'Founder & CEO',
-            'img': `<img src="img/wayne-barnett-founder-ceo.jpg">`
+            'img': "img/wayne-barnett-founder-ceo.jpg"
         },
         {
             'name': 'Angela Caroll',
             'role': 'Chief Editor',
-            'img': `<img src="img/angela-caroll-chief-editor.jpg" alt="">`
+            'img': "img/angela-caroll-chief-editor.jpg"
         },
         {
             'name': 'Walter Gordon',
             'role': 'Office Manager',
-            'img': `<img src="img/walter-gordon-office-manager.jpg" alt="">`
+            'img': "img/walter-gordon-office-manager.jpg"
         },
         {
             'name': 'Angela Lopez',
             'role': 'Social Media Manager',
-            'img': `<img src="img/angela-lopez-social-media-manager.jpg" alt="">`
+            'img': "img/angela-lopez-social-media-manager.jpg"
         },
         {
             'name': 'Scott Estrada',
             'role': 'Developer',
-            'img': `<img src="img/scott-estrada-developer.jpg" alt="">`
+            'img': "img/scott-estrada-developer.jpg"
         },
         {
             'name': 'Barbara Ramos',
             'role': 'Graphic Designer',
-            'img': `<img src="img/barbara-ramos-graphic-designer.jpg" alt="">`
+            'img': "img/barbara-ramos-graphic-designer.jpg"
         }
 
     ];
@@ -55,6 +55,6 @@ for (let i = 0; i < team.length; i++){
     // Organizzare i singoli membri in card / schede
     //     BONUS 1:
     // Trasformare la stringa foto in una immagine effettiva
-    printer.innerHTML += `<div class='col'>${imgIndex} <br><h3>${nomeIndex}</h3> <br><span class='profile_role'>${roleIndex}</span></div>`;
+    printer.innerHTML += `<div class='col'><img src='${imgIndex}' <br><h3>${nomeIndex}</h3> <br><span class='profile_role'>${roleIndex}</span></div>`;
 }
 
