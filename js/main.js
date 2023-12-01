@@ -38,6 +38,13 @@
 
 //     MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+for (let i = 0; i < team.length; i++){
+    let teamIndex = team[i];
+    let nomeIndex = teamIndex.name;
+    let roleIndex = teamIndex.role;
+    let imgIndex = teamIndex.img;
+    console.log('Name: ' + nomeIndex, ' Role: ' + roleIndex, ' Img: ' + imgIndex);
+}
 //     MILESTONE 2:
 // Stampare le stesse informazioni su DOM sotto forma di stringhe
 //     BONUS 1:
